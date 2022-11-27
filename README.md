@@ -70,9 +70,13 @@
    
    <img src="./readme_images/sample_slanted.jpg">
    
+   - 인식률 저하
+   
    #### sample6 (다른 폰트 사용)
    
    <img src="./readme_images/sample_diff_font.jpg">
+   
+   - 인식률 저하
   
   
   ## 한계
