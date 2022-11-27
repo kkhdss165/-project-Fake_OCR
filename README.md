@@ -96,3 +96,10 @@
 
 ## <개발기간>
 - 2021년 12월(1주)
+
+## <속도>
+-  AMD RYZEN 2200G(4core) RAM 8GB 기준 2초 이내
+
+## <참조>
+- <a href = "https://github.com/kkhdss165/-project-Fake_OCR/blob/main/report/%EC%A4%91%EA%B0%84%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf">중간보고서</a>
+- <a href = "https://github.com/kkhdss165/-project-Fake_OCR/blob/main/report/%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf">최종보고서</a>
