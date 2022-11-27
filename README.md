@@ -25,15 +25,41 @@
    - (전체 면적에 흰색이 차지하는 비율을 사용해서 값이 낮은 제일 유사한 이미지를 식별)
   
    #### 프로그램 순서
+   
+   #### 초기
+   
+   <img src="./readme_images/process1.jpg">
+   
    ##### - 사진속의 도형 하나씩 컨투어를 이용하여 영역을 정하기 (함수 : choose_file()의 contour 객체)
+      
+   <img src="./readme_images/process2.jpg">
+   
    ##### - 영역이 겹치거나 매우 근접할때 한 글자로 인식해서 영역 합치기 (함수 : combine_Texts():)
+   
+   <img src="./readme_images/process3.jpg">
+   
    ##### - 합친 도형(한 글자)의 순서를 왼쪽에서 아래로 글 읽는 순서처럼 정렬하기 (함수 : sort_Texts())
    ##### - 정렬 후 한 글자씩 라이브러리의 파일들을 이용하여 비교하기 (함수 : check_Texts())
+   
+   <img src="./readme_images/process4.jpg">
+   
    ##### - 결과 출력 ()
+   
+   <img src="./readme_images/result.png">
 
    
+  ## 결과
   
-    
+  
+  ## 한계
+   - 컴퓨터비전, 인공지능 사용없이 자동적으로 영역을 나누기 어렵다
+   - 몇몇 폰트는 소문자 알파벳l 과 대문자 알파벳I를 구별하기 힘들다
+   - 폰트의 갯수가 어느정도 되야 실사용 가능 (하지만 라이브러리 용량이 커지면 속도가 느려짐)
+
+  ## 어려웠던점
+   <img src="./readme_images/solution.png">
+   
+   - 소문자 i j 같이 연결되어 있지 않는 문자들 처리의 어려움 >> 공백크기를 사용자가 지정함으로 문제 해결
   
 ## <개발환경>
 - IDE : Jupyter Notebook, PyCharm
