@@ -6,7 +6,7 @@
   - Python Opencv 사용
   - 사진 속의 텍스트를 추출하는 인공지능 **OCR(Optical Character Recognition)** 모티브
   - Opnecv의 이진화(binarization), 컨투어(contour), 비트연산(bitwise) 활용
-  - 사전에 글자의 라이브러리 제작
+  - 사전에 글자의 라이브러리 제작 (해당 프로젝트에서는 한 종류의 폰트로만 제작)
   - 실행 시 사진 속의 글자의 영역별로 라이브러리 비교 후 가장 유사한 글자 매칭 
   
   ## 글자 라이브러리
@@ -50,11 +50,35 @@
 
    
   ## 결과
+   #### sample1 (한글1)
+   
+   <img src="./readme_images/sample1.jpg">
+   
+   #### sample2 (한글2)
+   
+   <img src="./readme_images/sample2.jpg">
+   
+   #### sample3 (영어)
+   
+   <img src="./readme_images/sample3.jpg">
+   
+   #### sample4 (혼합)
+   
+   <img src="./readme_images/sample4.jpg">
+   
+   #### sample5 (글자의 비율을 조정)
+   
+   <img src="./readme_images/sample_slanted.jpg">
+   
+   #### sample6 (다른 폰트 사용)
+   
+   <img src="./readme_images/sample_diff_font.jpg">
   
   
   ## 한계
-   - 컴퓨터비전, 인공지능 사용없이 자동적으로 영역을 나누기 어렵다
-   - 몇몇 폰트는 소문자 알파벳l 과 대문자 알파벳I를 구별하기 힘들다
+   - 컴퓨터비전, 인공지능 사용없이 자동적으로 영역을 나누기 어려움
+   - 몇몇 폰트는 소문자 알파벳l 과 대문자 알파벳I를 구별하기 힘듬
+   - 글자의 비율을 좁히거나 늘리면 구별이 힘듬
    - 폰트의 갯수가 어느정도 되야 실사용 가능 (하지만 라이브러리 용량이 커지면 속도가 느려짐)
 
   ## 어려웠던점
